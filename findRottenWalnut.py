@@ -1,4 +1,5 @@
-
+#in an array where all numbers(assumming they are walnuts' weight) are the same except one which has lower weight.
+#So its divides the array in log n time to find the rotten one.
 
 def compareScales (leftScaleList, rightScaleList):
     result = sum(leftScaleList) - sum(rightScaleList)
